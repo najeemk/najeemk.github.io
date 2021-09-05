@@ -1,32 +1,24 @@
 import React from "react";
-import { Route, Switch, Link } from "react-router-dom";
-import { Home } from "./pages/Home";
-import About from "./pages/About";
+import { Route, Switch } from "react-router-dom";
+import { NavigationBar } from "./components/NavigationBar/NavigationBar";
+
+import { Splash } from "./pages/Splash";
+import { About } from "./pages/About";
+import { ProfessionalSummary } from "./pages/ProfessionalSummary";
 
 function App() {
   return (
     <>
-      <div>
-        <nav>
-          <ul id="navigation">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <NavigationBar />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Splash />
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/professional-summary">
+          <ProfessionalSummary />
         </Route>
       </Switch>
     </>

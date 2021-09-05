@@ -1,20 +1,17 @@
 import React from "react";
 
-const divStyle = {
-  color: "white",
-};
+import { BasicPage } from "../components/BasicPage/BasicPage";
 
-class About extends React.Component {
-  render() {
-    return (
-      <div style={divStyle}>
-        <h2>About Page</h2>
-        <main>
-          <p>This section contains information about...</p>
-        </main>
-      </div>
-    );
-  }
-}
+import aboutJSON from "../data/about.json";
+import profilePicture from "../media/profile.jpg";
 
-export default About;
+export const About = () => (
+  <BasicPage
+    data={aboutJSON}
+    leadingImg={{
+      src: profilePicture,
+      alt: "Headshot of Najeem",
+      profile: true,
+    }}
+  />
+);

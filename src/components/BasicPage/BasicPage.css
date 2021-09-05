@@ -1,0 +1,33 @@
+#basic-page {
+    background-color: #404040;
+    width: 100%;
+    height: calc(100vh - 52px);
+
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: lightgray;
+}
+
+.leading-img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 3rem auto;
+}
+
+.profile {
+    border: 3px solid #ee3e0d;
+    border-radius: 50%;
+}

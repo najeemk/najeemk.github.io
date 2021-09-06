@@ -1,17 +1,33 @@
 import React from "react";
-import { BasicPage } from "../components/BasicPage/BasicPage";
+import "../styles/Splash.css";
+import construction from "../media/construction.png";
 
-import homeJSON from "../data/splash.json";
-import splashImage from "../media/construction.png";
-
-export const Splash = () => (
-  <BasicPage
-    data={homeJSON}
-    leadingImg={{
-      src: splashImage,
-      alt: "Construction icon yellow",
-      title:
-        "Image licensed under public domain: https://creativecommons.org/publicdomain/zero/1.0/ Source: https://publicdomainvectors.org/en/free-clipart/Under-construction-vector-icon/8209.html",
-    }}
-  />
-);
+export const Splash = () => {
+  return (
+    <>
+      <div id="basic-page" className="content splash">
+        <div>
+          <h1>Najeem Kanishka</h1>
+          <hr />
+          <p>Software Engineer and Data Scientist</p>
+          <h2
+            style={{
+              backgroundColor: "orange",
+              color: "black",
+              border: "5px solid red",
+            }}
+          >
+            <img
+              className="leading-img"
+              src={construction}
+              alt="construction sign"
+              style={{ width: "200px" }}
+            />
+            This page is currently under construction.
+            <br /> Please pardon any missing information!
+          </h2>
+        </div>
+      </div>
+    </>
+  );
+};

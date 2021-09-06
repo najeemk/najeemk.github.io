@@ -1,5 +1,4 @@
 import React from "react";
-import "./BasicPage.css";
 
 type BasicPageTypes = {
   data: {

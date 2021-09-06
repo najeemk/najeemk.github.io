@@ -1,17 +1,18 @@
 import React from "react";
-
-import { BasicPage } from "../components/BasicPage/BasicPage";
-
-import aboutJSON from "../data/about.json";
 import profilePicture from "../media/profile.jpg";
 
-export const About = () => (
-  <BasicPage
-    data={aboutJSON}
-    leadingImg={{
-      src: profilePicture,
-      alt: "Headshot of Najeem",
-      profile: true,
-    }}
-  />
-);
+export const About = () => {
+  return (
+    <>
+      <div id="basic-page">
+        <h1>About</h1>
+        <img
+          className="leading-img profile"
+          src={profilePicture}
+          alt={"Najeem Headshot"}
+        />
+        s
+      </div>
+    </>
+  );
+};

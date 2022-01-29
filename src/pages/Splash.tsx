@@ -1,31 +1,24 @@
 import React from "react";
 import "../styles/Splash.css";
-import construction from "../media/construction.png";
+import profilePicture from "../media/profile.jpg";
 
 export const Splash = () => {
   return (
     <>
-      <div id="basic-page" className="content splash">
+      <div className="content splash">
         <div>
           <h1>Najeem Kanishka</h1>
           <hr />
-          <p>Software Engineer and Data Scientist</p>
-          <h2
-            style={{
-              backgroundColor: "orange",
-              color: "black",
-              border: "5px solid red",
-            }}
-          >
-            <img
-              className="leading-img"
-              src={construction}
-              alt="construction sign"
-              style={{ width: "200px" }}
-            />
-            This page is currently under construction.
-            <br /> Please pardon any missing information!
+          <h2 className="text-xl text-white text-center pt-1">
+            Software Development Engineer
+            <br />
+            New Jersey, USA
           </h2>
+          <img
+            className="leading-img profile"
+            src={profilePicture}
+            alt={"Najeem Headshot"}
+          />
         </div>
       </div>
     </>

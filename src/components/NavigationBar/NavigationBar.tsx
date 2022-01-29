@@ -12,7 +12,7 @@ export const NavigationBar = () => {
           {/* Reverse Order */}
           <NavigationLink to="/contact" title="Contact" />
           <NavigationLink to="/summary" title="Professional Summary" />
-          <NavigationLink to="/about" title="About" disabled={true} />
+          <NavigationLink to="/about" title="About" />
         </ul>
       </nav>
     </div>

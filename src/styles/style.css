@@ -37,54 +37,35 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: 2rem;
-    padding: 10px;
-    color: white;
-}
-
-p {
-    padding: 10px;
-    font-size: 1.5rem;
-    color:white;
-}
-
 a {
     padding: 10px;
     font-size: 1.5rem;
     color: white;
 }
 
-div.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    margin: 40px;
-}
-
-div.card h2.card-header {
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    padding: 10px;
-    font-size: 40px;
-}
-
-div.card p.card-container {
-    background-color: rgba(100,100,100,0.7);
+hr {
+    width: 10%;
+    margin: auto;
 }
 
 .leading-img {
     display: block;
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 3rem auto;
 }
 
 .profile {
-    border: 3px solid #ee3e0d;
+    border: 3px solid white;
     border-radius: 50%;
 }
 
 .frame-parent {
     display: flex;
     justify-content: center;
+}
+
+.bg-linkedin {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 119, 181, var(--tw-bg-opacity));
 }

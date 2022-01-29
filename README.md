@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Commands
+
+To Run
+
+### `npm start`
+
+To build the project and start on local server
+
+### `npm run deploy`
+
+To build the project and deploy to GH Pages production
+
 ## Available Scripts
 
 In the project directory, you can run:

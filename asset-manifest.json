@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fec8301.chunk.css",
-    "main.js": "/static/js/main.12e99395.chunk.js",
-    "main.js.map": "/static/js/main.12e99395.chunk.js.map",
+    "main.css": "/static/css/main.486c9506.chunk.css",
+    "main.js": "/static/js/main.6e1eb72d.chunk.js",
+    "main.js.map": "/static/js/main.6e1eb72d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67e3acb6.js",
     "runtime-main.js.map": "/static/js/runtime-main.67e3acb6.js.map",
     "static/js/2.875ac2bd.chunk.js": "/static/js/2.875ac2bd.chunk.js",
     "static/js/2.875ac2bd.chunk.js.map": "/static/js/2.875ac2bd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4fec8301.chunk.css.map": "/static/css/main.4fec8301.chunk.css.map",
+    "static/css/main.486c9506.chunk.css.map": "/static/css/main.486c9506.chunk.css.map",
     "static/js/2.875ac2bd.chunk.js.LICENSE.txt": "/static/js/2.875ac2bd.chunk.js.LICENSE.txt",
-    "static/media/ProfessionalSummary.css": "/static/media/dtla_bookstore.6535e387.jpg",
-    "static/media/Splash.css": "/static/media/nagsheadnc.0ff91490.jpg",
-    "static/media/profile.7214af4c.jpg": "/static/media/profile.7214af4c.jpg",
-    "static/media/About.css": "/static/media/sdairplane.79deccac.jpg",
-    "static/media/Contact.css": "/static/media/shibuya.90e63e31.jpg",
+    "static/media/ProfessionalSummary.css": "/static/media/amsterdam.1c43a706.jpg",
+    "static/media/Home.css": "/static/media/home_c.1e0fd7fa.jpg",
+    "static/media/profile1.171d3e50.jpg": "/static/media/profile1.171d3e50.jpg",
+    "static/media/About.css": "/static/media/ps.3ba6afd6.jpg",
     "static/media/thumbtack.d8376a23.png": "/static/media/thumbtack.d8376a23.png"
   },
   "entrypoints": [
     "static/js/runtime-main.67e3acb6.js",
     "static/js/2.875ac2bd.chunk.js",
-    "static/css/main.4fec8301.chunk.css",
-    "static/js/main.12e99395.chunk.js"
+    "static/css/main.486c9506.chunk.css",
+    "static/js/main.6e1eb72d.chunk.js"
   ]
 }

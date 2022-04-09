@@ -1,0 +1,10 @@
+.splash::before {
+    background-image:linear-gradient( rgba(73, 54, 54, 0.7), rgba(92, 77, 66, 0.35) ),
+    url("../media/images/home_c.jpg");
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}

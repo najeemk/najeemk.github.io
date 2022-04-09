@@ -1,5 +1,3 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
 import "./NavigationBar.css";
 import { NavigationLink } from "./NavigationLink";
 
@@ -10,7 +8,9 @@ export const NavigationBar = () => {
         <ul id="navigation">
           <NavigationLink to="/" title="Najeem Kanishka" left={true} />
           {/* Reverse Order */}
-          <NavigationLink to="/contact" title="Contact" />
+          <li><a href="https://www.linkedin.com/in/najeemkanishka/">LinkedIn</a></li>
+          <li><a href="https://www.github.com/najeemk/">GitHub</a></li>
+          {/* <NavigationLink to="" title="World Travel Map" /> */}
           <NavigationLink to="/summary" title="Professional Summary" />
           <NavigationLink to="/about" title="About" />
         </ul>

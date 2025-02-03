@@ -106,6 +106,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overscroll-behavior: none; /* Stops the bouncing*/
 }
 
 hr {
@@ -11116,30 +11117,31 @@ body {
 .about-section {
   padding-top: 5rem;
   padding-bottom: 8rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
 }
 
-.projects-section {
-  padding: 10rem 0;
+.portfoilo-section {
+  padding: 5rem 0;
+  background: rgba(0, 0, 0, 0.9);
 }
-.projects-section .featured-text {
+.portfoilo-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .portfoilo-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.projects-section .project-text {
+.portfoilo-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .portfoilo-section .project-text {
     padding: 5rem;
   }
 }

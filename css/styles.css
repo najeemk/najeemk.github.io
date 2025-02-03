@@ -11123,25 +11123,25 @@ body {
   margin-bottom: 5rem;
 }
 
-.portfoilo-section {
+.interests-section {
   padding: 5rem 0;
   background: rgba(0, 0, 0, 0.9);
 }
-.portfoilo-section .featured-text {
+.interests-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .portfoilo-section .featured-text {
+  .interests-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.portfoilo-section .project-text {
+.interests-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .portfoilo-section .project-text {
+  .interests-section .project-text {
     padding: 5rem;
   }
 }
